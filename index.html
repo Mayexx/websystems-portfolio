@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/33d18cbfe3.js" crossorigin="anonymous"></script>
+    <title>PORTFOLIO | WEBPAGE</title>
+</head>
+<body>
+    <!--HOME-->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./imgs/logo.png" alt="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#interests">Interests</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-x" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>BSIT 2nd year student</p>
+                <h1>Hi! I'm <span>Marielle Dela Cruz</span> <br></h1>
+            </div>
+        </div>
+    </div>
+    <!--ABOUT-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./imgs/me.jpg" alt="pic">
+                </div>
+                <div class="about-col-1">
+                    <h1 class="title">About Me</h1>
+                    <p>I'm Marielle Dela Cruz, a second-year IT student with a passion for learning, adapting, and thriving in the dynamic world of technology.
+                        With a relentless curiosity and a hunger for knowledge, I embrace every opportunity to expand my skills and expertise.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('hobbies')">Hobbies</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programming</span><br>Proficiency in programming languages such as Java, Python, C++, or JavaScript, with a solid understanding of fundamental concepts like data structures, algorithms, and object-oriented programming.</li>
+                            <li><span>Web Development</span><br>Basic knowledge of HTML, CSS, and JavaScript for creating and designing web pages, along with familiarity with web development frameworks like Bootstrap.</li>
+                            <li><span>Networking</span><br>Basic understanding of computer networks, including concepts like TCP/IP, LAN, WAN, and familiarity with networking protocols and technologies.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="hobbies">
+                        <ul>
+                            <li><span>Anime Enthusiast</span><br>Passionate about exploring various anime series and genres, discussing plotlines, characters, and themes with fellow enthusiasts, and staying updated with the latest releases and recommendations.</li>
+                            <li><span>Sketching and Painting</span><br>I am passionate about sketching and painting, using various mediums and techniques to express my creativity and capture moments and emotions on canvas or paper, allowing me to unwind, express myself, and bring my imagination to life.</li>
+                            <li><span>Watching Movies & Series</span><br>I enjoy watching movies as a way to relax, unwind, and immerse myself in captivating stories and diverse narratives from around the world.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2012 - 2016</span><br>Monkayo Central Elementary School</li>
+                            <li><span>2016 - 2017</span><br>Leon Garcia Sr. National High School</li>
+                            <li><span>2017 - 2018</span><br>Monkayo National High School</li>
+                            <li><span>2018 - 2020</span><br>F.Bangoy National High School</li>
+                            <li><span>2020 - 2022</span><br>Philippine Academy Of Sakya Davao Inc.</li>
+                            <li><span>2022 - Present</span><br>Jose Maria College</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--PROJECTS-->
+    <div id="projects">
+        <div class="container">
+            <h1 class="title">Projects in HTML</h1>
+            <div class="projects-list">
+                <div>
+                    <h2>Canva Portfolio</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis, deleniti eaque cum maxime nemo ipsa doloremque ut quae minima deserunt?</p>
+                    <a href="https://delacruzmarielle.my.canva.site/">View</a>
+                </div>
+                <div>
+                    <h2>Headings in HTML</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis, deleniti eaque cum maxime nemo ipsa doloremque ut quae minima deserunt?</p>
+                    <a href="https://mayexx.github.io/delacruz-lab1-html-basics/">View</a>
+                </div>
+                <div>
+                    <h2>How to make my favorite dish</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis, deleniti eaque cum maxime nemo ipsa doloremque ut quae minima deserunt?</p>
+                    <a href="https://mayexx.github.io/delacruz-lab2-html-works-github-hosting/">View</a>
+                </div>
+                <div>
+                    <h2>OL & UL implementation</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis, deleniti eaque cum maxime nemo ipsa doloremque ut quae minima deserunt?</p>
+                    <a href="https://mayexx.github.io/delacruz-lab2-ol-ul-implementation/">View</a>
+                </div>
+                <div>
+                    <h2>File Paths in HTML</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis, deleniti eaque cum maxime nemo ipsa doloremque ut quae minima deserunt?</p>
+                    <a href="https://mayexx.github.io/delacruz-file-path">View</a>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--INTERESTS-->
+    <div id="interests">
+        <div class="container">
+            <h1 class="title">Interests</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./imgs/sketch.JPG">
+                    <div class="layer">
+                        <h3>ARTS</h3>
+                        <p>I enjoy doing sketches</p>
+                        <a href=https://photos.app.goo.gl/PNZfo4naBh43ckfd8><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./imgs/photos.JPG">
+                    <div class="layer">
+                        <h3>PHOTOS</h3>
+                        <p>I love taking photos</p>
+                        <a href=https://photos.app.goo.gl/isUMkYpjcMLwRMqi7><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./imgs/craft.jpg">
+                    <div class="layer">
+                        <h3>CRAFTS</h3>
+                        <p>I like creating something I saw on online</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+<!--CONTACT-->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i></i>marielle.delacruz@jmc.edu.ph</p>
+                    <p><i class="fa-solid fa-phone"></i>09059785038</p>
+                    <div class="social-icons">
+                        <a href="https://web.facebook.com/marielle.delacruzparagoso/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/in/marielle-dela-cruz-paragoso/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/Mayexx"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://twitter.com/Annoyyeng"><i class="fa-brands fa-square-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Name" required>
+                        <input type="email" name="email" placeholder="Email" required>
+                        <textarea name="Message" rows="6" placeholder="Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ Mayexx 2024  <i class="fa-solid fa-moon"></i></p>
+        </div>
+    </div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxz3HvYpQDkCp8jBmb2OfKx8Aba1S6L-iZq-Rn6af7lOi61DfxkfzIJycADy3V0D3ZX/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully!!!"
+            setTimeout(function(){
+                msg.innerHTML = " "
+            },5000)
+            form.reset
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
